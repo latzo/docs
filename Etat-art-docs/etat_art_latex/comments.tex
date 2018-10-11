@@ -1,0 +1,267 @@
+\begin{comment}
+
+\chapter{Autre partie}
+
+Dans cette partie nous cherchons à décrire dans un premier temps [...], puis, c[...].
+
+\section{Partie 1}
+
+Intro
+
+\subsection{Sous-partie 1}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[height=12cm]{autre_partie/image1}
+\end{center}
+\caption[autre partie générale]{autre partie image 1\protect\footnotemark}
+%\floatfoot{Source: (Citation command)}
+% avec le package "floatrow"
+\end{figure}
+
+%footnote protected pour apparaitre dans la légende d'une image
+\footnotetext{Schéma d'après : \textit{Auteur 1 \& Propriétaire image}, LICENCE (cf. ref. \cite{cite4})}
+
+\newpage{}
+
+\subsection{Sous-partie 2}
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[height=12cm]{autre_partie/image2}
+\end{center}
+\caption[autre partie]{autre partie globale de notre quelque chose}
+\end{figure}
+
+Nous retrouvons ici, blabla\footnote{Application bla - Interface blabla} [...].
+
+\subsubsection{Sous-sous-partie 1}
+
+Le bla (cf. ref. \cite{cite6}) est [...]:
+
+\begin{itemize}
+\item item1;
+\item item2;
+\item item3;
+\item item4;
+\item item5.
+\end{itemize}
+
+\newpage
+
+\subsubsection{Sous-sous-partie 2}
+
+%Les lignes :
+% \setcounter{secnumdepth}{4}
+% \setcounter{tocdepth}{4}
+%dans le fichier "main.tex" permettent de faire en sorte que les paragraphes soient interprété comme des titres de niveau 5
+\paragraph{Paragraphe 1 (agissant comme titre niveau 5)}
+%forcer un saut de ligne
+~\\
+\hskip7mm
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[height=6cm]{autre_partie/image3}
+\end{center}
+\caption[Structure d'unz autre chose]{Structure d'une autre chose\protect\footnotemark}
+\end{figure}
+
+Ce schéma représente bla.
+
+\footnotetext{Schéma et explication d'après le wiki bla (cf. ref. \cite{cite0})}
+
+\paragraph{Paragraphe 2}
+~\\
+\hskip7mm
+
+%fixer les floats précédemment définis
+%\FloatBarrier
+
+Bla
+
+\subparagraph{Sous-paragraphe 1}
+~\\
+\hskip7mm
+
+Bla
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[height=10cm]{autre_partie/image4}
+\end{center}
+\caption{Diagramme de truc}
+\end{figure}
+
+\subparagraph{Sous-paragraphe 2}
+~\\
+\hskip7mm
+
+Bla\\
+
+Bla
+
+\subparagraph{Sous-paragraphe 3}
+~\\
+\hskip7mm
+
+Bla
+
+\subsubsection{Sous-sous-partie 3}
+
+Bla
+
+\section{Partie 2}
+
+Bla
+
+\footnotetext{D'après le schéma disponible sur la documentfation officielle disponible sur le site blalbla}
+
+Bla
+
+\subsection{Sous-partie 1}
+
+Bla
+
+\subsection{Sous-partie 2}
+
+Bla
+
+\paragraph*{Paragraphe 1 (n'apparaitra pas dans l'index)}
+Bla
+
+\paragraph*{Paragraphe 2}
+Bla
+
+\paragraph*{Paragraphe 3}
+Bla
+
+\subsection{Sous-partie 3}
+
+Bla
+
+
+
+
+\chapter{Analyse des besoins}
+
+Intro
+
+\section{Besoins fonctionnels}
+
+Après une analyse des besoins fonctionnels du projet, nous avons défini deux sous catégories. D'un côté, les besoins [...], de l'autre, les besoins [...].
+
+\subsection{Sous-partie 1}
+
+Bla
+
+\subsection{Sous-partie 2}
+
+Bla
+
+\newpage
+
+\section{Besoins non-fonctionnels}
+
+Comme précédemment, nous avons choisi de distinguer deux catégories pour les besoins non-fonctionnels. D'une part, nous avons les besoins non-fonctionnels pour les [...], et d'autre part ceux pour [...]. Nous avons aussi pris en compte les contraintes de développement, que nous détaillerons à la fin de cette partie.
+
+\subsection{Sous-partie 1}
+
+Bla\\
+
+Aperçu du rendu souhaité :
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[height=10cm]{besoins/rendu}
+\end{center}
+\caption{Rendu attendu}
+\end{figure}
+
+\subsection{Sous-partie 2}
+
+Bla
+
+\newpage
+
+\section{Développement}
+
+Intro
+
+\subsection{Tâches}
+
+Bla\\
+
+\section{Bilan récapitulatif}
+
+Voici un tableau (cf. fig. 2.1) récapitulatif de notre analyse de l'existant...\\
+
+%tableau centré à taille variable qui s'ajuste automatiquement suivant la longueur du contenu
+\begin{figure}[!h]
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Solution & Critère 1 & Critère 2 & Critère 3 & Critère 4\\
+\hline
+Solution 1(cf. ref. \cite{cite0}) & Oui & Oui & Oui & Oui \\
+Solution 2(cf. ref. \cite{cite1}) & Oui & Oui & Oui & Non \\
+Solution 3(cf. ref. \cite{cite2}) & Oui (sauf telle chose) & Non & Non & Oui\\
+Solution 4(cf. ref. \cite{cite3}) & Oui& Non & Oui & Non\\
+Solution 5(cf. ref. \cite{cite4}) & Oui (uniquement ceux-ci) & Non & Oui & Non\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Tableau récapitulatif des solutions}
+\end{figure}
+
+
+%tableau à taille fixée sur certaines colonnes (param sur la ligne \begin{tabularx}, voir wiki pour plus d'info sur la syntaxe
+\begin{figure}[!h]
+\begin{center}
+\begin{tabularx}{17cm}{|c|p{6cm}|X|}
+\hline
+Priorité & Nom & Raison\\
+\hline
+1 & Tache 1 & Doit être vérifié en premier car sinon [...] \tabularnewline
+2 & Tache 2 & On doit pouvoir [...] \tabularnewline
+3 & Tache 3 & Comme les principales fonctionnalités permettant de tester sont opérationnelles, nous pouvons passer à cette tâche. \tabularnewline
+4 & Tache 4 & Parce que [...] \tabularnewline
+5 & Tache 5 & La tache 5 fait partie des principales [...]. \tabularnewline
+6 & Tache 6 & Dernière fonctionnalité essentielle à mettre en place. \tabularnewline
+7 & Tache 7 & Non-essentiel, mais apporterait un plus au projet. \tabularnewline
+8 & Tache 8 & Non-essentiel, mais apporterait un plus au projet. \tabularnewline
+\hline
+\end{tabularx}
+\end{center}
+\caption{Tableau récapitulatif des tâches}
+\end{figure}
+
+\subsection{Tests}
+
+Bla\\
+
+\begin{figure}[!h]
+\begin{center}
+\begin{tabularx}{17cm}{|p{6cm}|X|}
+\hline
+Fonctionnalité & Test\\
+\hline
+Fonction 1 & Quand [...], vérifier [...]. \tabularnewline
+& Et quand [...], vérifier [...]. \tabularnewline
+Fonction 2 & Vérifier [...]. \tabularnewline
+Fonction 3 & Vérifier [...]. \tabularnewline
+Fonction 4 & Avoir [...]. \tabularnewline
+Fonction 5 & Accéder à [...]. \tabularnewline
+& Vérifier que [...]. \tabularnewline
+Fonction 6 & Accéder à [...]. \tabularnewline
+& Et vérifier [...]. \tabularnewline
+Fonction 7 & Installer [...]. \tabularnewline
+& Vérifier [...]. \tabularnewline
+Fonction 8 & Compter [...]. \tabularnewline
+\hline
+\end{tabularx}
+\end{center}
+\caption{Tableau récapitulatif des tests}
+\end{figure}
+
+\end{comment}

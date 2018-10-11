@@ -1,0 +1,21 @@
+\BOOKMARK [0][-]{chapter.1}{Sp\351cifications}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Environnement}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Minerais}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Base}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Robot r\351actif}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Robot cognitif }{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Premi\350re Version : Robot R\351actif}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Diagramme de Classes}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Diagramme d'Activit\351s}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Recherche de minerai [Chercher Minerais]}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Prise de minerai [Prendre Minerai]}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Acheminement des minerais vers la base [Aller a la Base]}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{D\351p\364t de minerai}{section.2.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Deuxi\350me Version : Robot Cognitif}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Diagramme de Classes}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Diagramme d'Activit\351s}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Acheminement des minerais vers la base [Aller a la Base]}{section.3.2}% 17
+\BOOKMARK [0][-]{chapter.4}{Tests de Sensibilit\351}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Robots R\351actifs}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Robots Cognitifs}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.3}{Version r\351active vs Version cognitive}{chapter.4}% 21

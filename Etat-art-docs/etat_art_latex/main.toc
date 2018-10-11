@@ -1,0 +1,22 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Sp\IeC {\'e}cifications}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Environnement}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Minerais}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Base}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Robot r\IeC {\'e}actif}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}Robot cognitif }{3}{section.1.5}
+\contentsline {chapter}{\numberline {2}Premi\IeC {\`e}re Version : Robot R\IeC {\'e}actif}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Diagramme de Classes}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Diagramme d'Activit\IeC {\'e}s}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Recherche de minerai [Chercher Minerais]}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Prise de minerai [Prendre Minerai]}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Acheminement des minerais vers la base [Aller a la Base]}{7}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}D\IeC {\'e}p\IeC {\^o}t de minerai}{7}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}Deuxi\IeC {\`e}me Version : Robot Cognitif}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Diagramme de Classes}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Diagramme d'Activit\IeC {\'e}s}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Acheminement des minerais vers la base [Aller a la Base]}{10}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}Tests de Sensibilit\IeC {\'e}}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Robots R\IeC {\'e}actifs}{12}{section.4.1}
+\contentsline {section}{\numberline {4.2}Robots Cognitifs}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Version r\IeC {\'e}active \textit {vs} Version cognitive}{14}{section.4.3}
